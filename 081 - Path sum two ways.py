@@ -2,7 +2,7 @@
 from collections import deque
 
 matrix = []
-with open("input.txt","r") as f:
+with open("081 - input.txt","r") as f:
     for line in f.readlines():
         inp = line.split(',')
         matrix.append(list(map(int, inp)))
