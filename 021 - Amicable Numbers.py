@@ -4,7 +4,7 @@ seen = set()
 
 def factorise(num):
     factorTotal = 1
-    for i in range(2, round(math.sqrt(num))):
+    for i in range(2, round(math.sqrt(num)) + 1):
         if num%i == 0:
             if i == math.sqrt(num):
                 factorTotal += math.sqrt(num)
