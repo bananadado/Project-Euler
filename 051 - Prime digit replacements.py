@@ -19,7 +19,7 @@ def generatePrimes(limit):
     return [x for x, prime in enumerate(arr) if prime and x > 1]
 
 
-primes = generatePrimes(10000000)  # we are going to assume its below 1 million
+primes = generatePrimes(1000000)  # we are going to assume its below 1 million
 
 for num in primes:
     splitNum = list(str(num))
